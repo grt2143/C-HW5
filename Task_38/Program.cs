@@ -30,5 +30,4 @@ for (int i = 0; i < array.Length; i++)
     if (array[i] > max)
     max = array[i];
 }
-Console.WriteLine();
-Console.WriteLine($"Разность между максимальным и минимальным элементом равна {max - min}");
+Console.WriteLine($"\nРазность между максимальным и минимальным элементом равна {max - min}");
